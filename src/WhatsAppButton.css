@@ -1,0 +1,21 @@
+.floating-button {
+  position: fixed;
+  bottom: 50px; /* Distancia desde la parte inferior */
+  left: 20px; /* Distancia desde el lado derecho */
+  background-color: rgb(248, 242, 242);
+  border-radius: 50%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.floating-button:hover {
+  transform: scale(1.1); /* Efecto de agrandamiento */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
