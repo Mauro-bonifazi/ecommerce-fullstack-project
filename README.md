@@ -32,14 +32,6 @@ Aplicación **full stack** de comercio electrónico desarrollada con React y Nod
 
 ---
 
-## 🌐 Deployment
-
-- Frontend: (si lo deployaste, link)
-- Backend: (si lo deployaste, link)
-- Database: MongoDB Atlas
-
----
-
 ## ⚙️ Local Setup
 
 ```bash
